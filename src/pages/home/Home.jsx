@@ -3,7 +3,7 @@ import './Home.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import Swiper1 from '../../assets/Swipper.jpg'
 import Inter1 from '../../assets/inter-1.png'
 import Inter2 from '../../assets/inter-2.png'
@@ -51,7 +51,14 @@ let cards = data?.map((el) => (
 
     
       <section className="logo">
-        <Swiper loop={true} navigation={true} modules={[Navigation]} className="mySwiper">
+        <Swiper loop={true}
+         navigation={true}
+          modules={[Navigation,Autoplay]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+           className="mySwiper">
               <SwiperSlide className='logo_swiper'>
                 <img src={Swiper1} alt="" />
                 <div className="logo_text">
