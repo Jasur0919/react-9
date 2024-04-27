@@ -16,6 +16,7 @@
     right: 0;
     /* margin-top: -200px; */
     /* color: red; */
+    
 }
 
 .logo_text h3 {
@@ -32,7 +33,7 @@
     font-weight: 900;
     line-height: 68px;
     max-width: 522px;
-
+    margin: 25px 0;
 }
 
 .logo_text p {
@@ -42,4 +43,87 @@
     max-width: 488px;
     color: #7A7A7A;
 
+}
+
+
+/*   I N T E R     */
+
+
+.inter_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px 0 70px 0;
+}
+
+
+.inter_card img {
+    position: relative;
+    width: 480px;
+}
+
+.inter_card img {
+    position: relative;
+}
+
+.inter_card_text {
+    margin-top: -200px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.inter_card_text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    max-width: 289px;
+
+}
+
+.inter_card_text button {
+    width: 103.61px;
+    height: 31.59px;
+    padding: 8px 9px 8px 13px;
+    border-radius: 4px;
+    background: red;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+    margin-top: 35px;
+}
+
+.inter_card_text button:hover {
+    background: rgb(73, 131, 192);
+    transform: scale(1.07);
+}
+
+
+/*   I N N E R   */
+
+
+.inner_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 115px;
+}
+
+.inner_card {
+    width: 293px;
+    height: 107px;
+    padding: 20px 51.84px 20px 20px;
+    border-radius: 10px;
+    background: #F4F6FA;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.inner_text h3 {
+    width: 180px;
 }
