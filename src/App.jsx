@@ -24,6 +24,7 @@ import Image2 from './assets/18 → Link → 2.jpg.png'
 import Image3 from './assets/18 → Link → 3.jpg.png'
 import Image4 from './assets/18 → Link → 4.jpg.png'
 import Image5 from './assets/18 → Link → 5.jpg.png'
+import Auth from './pages/auth/Auth'
 
 
 
@@ -109,7 +110,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/admin' element={<Admin/>}/>
+        {/* <Route path='admin' element={<Admin/>}/> */}
+
+        <Route path='/' element={<Auth/>}>
+        <Route path='admin' element={<Admin/>}/>
+      </Route>
+
       </Routes>
     </div>
 
