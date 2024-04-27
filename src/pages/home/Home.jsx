@@ -47,6 +47,8 @@ let cards = data?.map((el) => (
   return (
     <>
 
+   
+
     
       <section className="logo">
         <Swiper loop={true} navigation={true} modules={[Navigation]} className="mySwiper">
