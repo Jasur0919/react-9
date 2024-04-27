@@ -19,11 +19,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoGlobeOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 import AnimatedCursor from "react-animated-cursor"
-import Image1 from './assets/EXAM (Copy) (1)/Group - 6/18 → Link → 1.jpg.png'
-import Image2 from './assets/EXAM (Copy) (1)/Group - 7/18 → Link → 2.jpg.png'
-import Image3 from './assets/EXAM (Copy) (1)/Group - 8/18 → Link → 3.jpg.png'
-import Image4 from './assets/EXAM (Copy) (1)/Group - 9/18 → Link → 4.jpg.png'
-import Image5 from './assets/EXAM (Copy) (1)/Group - 10/18 → Link → 5.jpg.png'
+import Image1 from './assets/18 → Link → 1.jpg.png'
+import Image2 from './assets/18 → Link → 2.jpg.png'
+import Image3 from './assets/18 → Link → 3.jpg.png'
+import Image4 from './assets/18 → Link → 4.jpg.png'
+import Image5 from './assets/18 → Link → 5.jpg.png'
 
 
 
@@ -74,7 +74,7 @@ function App() {
               </select>
           </div>
 
-          <span className='header_top_box-span '><img src={Call} alt="" /><p> +123 ( 456 )( 7890 )</p></span>
+          <span className='header_top_box-span '><img src={Call} alt="" /><p className='header_parr'> +123 ( 456 )( 7890 )</p></span>
         </div>
       </div>
     </section>
@@ -172,7 +172,7 @@ function App() {
       </div>
 
       <div className="last_row">
-        
+
       </div>
 
       <div className="footer_bot">

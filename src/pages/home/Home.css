@@ -1,0 +1,45 @@
+
+
+
+.logo_swiper img {
+    width: 1585px;
+}
+
+.logo_swiper {
+    position: relative;
+}
+
+.logo_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* margin-top: -200px; */
+    /* color: red; */
+}
+
+.logo_text h3 {
+    margin-top: 300px;
+
+}
+
+.logo_text span {
+    color: red;
+}
+
+.logo_text h1 {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 68px;
+    max-width: 522px;
+
+}
+
+.logo_text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.25px;
+    max-width: 488px;
+    color: #7A7A7A;
+
+}

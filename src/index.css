@@ -41,7 +41,7 @@
 
 .header_top_box-span p {
   display: flex;
-  width: 135px;
+  width: 145px;
 }
 
 
@@ -150,9 +150,11 @@ body {
   flex-direction: column;
   gap: 25px;
 }
-
+.header_parr {
+  width: 195px;
+}
 .footer_text img {
-  width: 130px;
+  width: 140px;
 }
 
 .footer_text p {
